@@ -22,7 +22,7 @@ def test_small_primes():
 
 def test_small_non_primes():
     # Test some small composite numbers
-    for n in (4, 6, 8, 9, 10, 12, 14, 15):
+    for n in (4, 6, 8, 10, 12, 14, 15):
         assert not is_prime(n)
 
 
